@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\王有超\\.ohos\\config\\default_KaoYan_TfrX-J1Q0iTI4CwguPrBbhdQOwBoOS1VKdzWbKHcjvI=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B48B9281F1EAF8B6E2F9AA21A0BCAA56FF3F4ECE2772839F772DEE05641A778C0F304B76335C3E3",
+          "profile": "C:\\Users\\王有超\\.ohos\\config\\default_KaoYan_TfrX-J1Q0iTI4CwguPrBbhdQOwBoOS1VKdzWbKHcjvI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\王有超\\.ohos\\config\\default_KaoYan_TfrX-J1Q0iTI4CwguPrBbhdQOwBoOS1VKdzWbKHcjvI=.p12",
+          "storePassword": "0000001B03897FB816D1841F344B2DF979CCEC8D4228E97272360640A14F20E98BB2983C911AA873EE69E6"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
